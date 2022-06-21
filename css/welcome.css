@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    margin: 50px;
+    font-family: Calibri;
+}
+.welcomeExxistingUser{
+    margin-left:45%;
+}
+.welcomeNewUser{
+    margin-top: 50px;
+    margin-left:46%;
+}
+.loginButton{
+    margin-left: -5px;
+    margin-top: 30px;
+    width: 125px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.loginButton:hover{
+    background-color: aqua;
+}
+.loginButton:active{
+    background-color: azure;
+}
+.registerButton{
+    margin-left: -20px;
+    margin-top: 30px;
+    width: 125px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.registerButton:hover{
+    background-color: aqua;
+}
+.registerButton:active{
+    background-color: aqua;
+}

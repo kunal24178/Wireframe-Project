@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    margin: 50px;
+    font-family: Calibri;
+}
+.fullNameDiv{
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+.labelfullName{
+    padding-right: 30px;
+}
+.registerInputBox{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+.emailDiv{
+    margin-left: 42.33%;
+    margin-bottom: 20px ;
+}
+.labelEmail{
+    padding-right: 30px;
+}
+.passwordDiv{
+    margin-left: 40.65%;
+    margin-bottom: 20px ;
+}
+.labelPassword{
+    padding-right: 30px;
+}
+.password1Div{
+    margin-left: 36.25%;
+    margin-bottom: 20px ;
+}
+.labelPassword1{
+    padding-right: 30px;
+}
+.registerSubmitDiv{
+    margin-left: 53%;
+}
+.registerButton{
+    margin-left: -20px;
+    margin-top: 30px;
+    width: 125px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.registerButton:hover{
+    background-color: aqua;
+}
+.registerButton:active{
+    background-color: aqua;
+}

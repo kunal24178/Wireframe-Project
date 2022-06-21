@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users List</title>
+    <link href="../css/users.css" rel="stylesheet">
+    <link href="../css/modal.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <a href="chat.html">
+        <div class="navDiv">
+            Group Chat
+        </div>
+    </a>       
+    <div class="navDivChat">
+        Manage Users
+    </div>
+    <a href="logout.html">
+        <div class="navDiv">
+            Logout
+        </div>
+    </a>
+    <h2> Users</h2>
+    <div>
+        <table class="userTable">
+            <tr class="userTableHead">
+                <th class="userTableCol1">Name</th>
+                <th class="userTableCol2">User Email ID</th>
+                <th class="userTableCol3"></th>
+            </tr>
+            <tr class="userTableOdd">
+                <td class="userTableCol1">kunal</td>
+                <td class="userTableCol2">kskamble@dbatu.ac.in</td>
+                <td class="userTableCol3">
+                    <a href="edit-user.html" class="onClick">Edit</a> | <span onclick="document.getElementById('modalDiv').style.display='block'" class="spanDel">Delete</span>
+                </td>
+            </tr>
+            <tr class="userTableEven">
+                <td class="userTableCol1">knsvnj osovodsnvond</td>
+                <td class="userTableCol2">jsbvdbsvbdsbvdbvh@gmail.com</td>
+                <td class="userTableCol3">
+                    <a href="edit-user.html" class="onClick">Edit</a> | <span onclick="document.getElementById('modalDiv').style.display='block'" class="spanDel">Delete</span>
+                </td>
+            </tr>
+            <tr class="userTableOdd">
+                <td class="userTableCol1">skvbi snjvndow onodvno</td>
+                <td class="userTableCol2">skbvkjd@kfvjf.com</td>
+                <td class="userTableCol3">
+                    <a href="edit-user.html" class="onClick">Edit</a> | <span onclick="document.getElementById('modalDiv').style.display='block'" class="spanDel">Delete</span>
+                </td>
+            </tr>
+            <tr class="userTableEven">
+                <td class="userTableCol1">sdbchdbvih sjnvjdnvonnvdv nonvodnvondwo</td>
+                <td class="userTableCol2">sbcdjbhc@skffvj.com</td>
+                <td class="userTableCol3">
+                    <a href="edit-user.html" class="onClick">Edit</a> | <span onclick="document.getElementById('modalDiv').style.display='block'" class="spanDel">Delete</span>
+                </td>
+            </tr>
+            <tr class="userTableOdd">
+                <td class="userTableCol1">sdviwdb kifjwvjf jivdjvfjjvnfjnv</td>
+                <td class="userTableCol2">gatdrudg@glsnfgl.com</td>
+                <td class="userTableCol3">
+                    <a href="edit-user.html" class="onClick">Edit</a> | <span onclick="document.getElementById('modalDiv').style.display='block'" class="spanDel">Delete</span>
+                </td>
+            </tr>
+            <tr class="userTableEven">
+                <td class="userTableCol1">ksbhv hsdbhic ksdbcdbv</td>
+                <td class="userTableCol2">kznvnodh@knsvj.com</td>
+                <td class="userTableCol3">  
+                    <a href="edit-user.html" class="onClick">Edit</a> | <span onclick="document.getElementById('modalDiv').style.display='block'" class="spanDel">Delete</span>
+                </td>
+            </tr>
+            <tr class="userTableOdd">
+                <td class="userTableCol1">kxvifbvb skvjf snvnfvnor</td>
+                <td class="userTableCol2">slgkbfskbk@shibrh.org</td>
+                <td class="userTableCol3">
+                    <a href="edit-user.html" class="onClick">Edit</a> | <span onclick="document.getElementById('modalDiv').style.display='block'" class="spanDel">Delete</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="modalDiv" class="modalContainer">
+        <div class="modalHeader">
+            <p class="modalHeadText">
+                Confirm user deletion
+                <a href="users.html"><button class="modalClose">&times;</button></a>
+            </p>
+        </div>
+        <div class="modalBody">
+           <span><img src="../images/logo.png" class="modalImg"><p class="modalMsg">Are you sure  ?</p></span>
+           <div class="modalBtn">
+            <a href="users.html"><button class="modalOkBtn">Ok</button></a>
+            <a href="users.html"><button class="modalCancelBtn">Cancel</button></a>
+           </div>
+        </div>
+    </div>
+    
+</body>
+</html>

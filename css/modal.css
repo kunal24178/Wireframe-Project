@@ -1,0 +1,86 @@
+.modalContainer{
+    display: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 30%;
+    width: 30%;
+    height: 40%;
+}
+.modalHeader{
+    border-bottom: 1px solid black;
+    height: 12%;
+}
+.modalHeadText{
+    padding-left: 100px;
+    font-size:large;
+}
+.modalClose{
+    display:inline;
+    background-color: white;
+    height: 90%;
+    width: 15%;
+    margin-top: -12px;
+    margin-bottom: 0%;
+    margin-right: 5px;
+    font-size:xx-large;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.modalClose:hover{
+    cursor: pointer;
+}
+.modalImg{
+    height:40px;
+    width: 40px;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 0%;
+}
+.modalMsg{
+    display: inline;
+    font-size: x-large;
+    padding: 0;
+}
+.modalBtn{
+    margin-left: 25%;
+    margin-top: 15%;
+}
+.modalOkBtn{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid blue;
+    margin-right: 20px;
+    height: 25px;
+    width: 80px;
+}
+.modalOkBtn:hover{
+    cursor: pointer;
+}
+.modalOkBtn:active{
+    background-color: black;
+    color: white;
+}
+.modalCancelBtn{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 20px;
+    height: 25px;
+    width: 80px;
+}
+.modalCancelBtn:hover{
+    cursor: pointer;
+}
+.modalCancelBtn:active{
+    background-color: black;
+    color: white;
+}
+.spanDel:hover{
+    cursor:pointer;
+
+}

@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    margin: 50px;
+    font-family: Calibri;
+}
+.navDiv{
+    background-color:gray;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: -4px;
+    width: 447px;
+    height: 30px;
+    text-align:center;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 20px;
+    color: black;      
+}
+.navDiv:active{
+    background-color:black;
+    color: white;
+}
+.navDivChat{
+    background-color:white;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: -4px;
+    width: 447px;
+    height: 30px;
+    text-align:center;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+}
+.editNameDiv{
+    margin-left: 34.8%;
+    margin-bottom: 20px ;
+}
+.editEmailDiv{
+    margin-left: 37%;
+    margin-bottom: 20px ;
+}
+.editSaveDiv{
+    margin-left: 48%;
+}
+.labelEmail{
+    padding-right: 30px;
+}
+.labelPassword{
+    padding-right: 30px;
+}
+.registerInputBox{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+.editSaveDiv{
+    margin-left: 48%;
+}
+.registerButton{
+    margin-left: -20px;
+    margin-top: 30px;
+    width: 125px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.registerButton:hover{
+    background-color: aqua;
+}
+.registerButton:active{
+    background-color: aqua;
+}

@@ -1,0 +1,88 @@
+.navDiv{
+    background-color:gray;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: -4px;
+    width: 447px;
+    height: 30px;
+    text-align:center;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 20px;
+    color: black;      
+}
+.navDiv:active{
+    background-color:black;
+    color: white;
+}
+.navDivChat{
+    background-color:white;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: -4px;
+    width: 447px;
+    height: 30px;
+    text-align:center;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+}
+.userTable{
+    border: 2px solid ;
+    width: 100%;
+    border-radius: 5px;
+}
+.userTableHead{
+    border: 2px solid black;
+    background-color: gray;
+    height: 30px;
+    margin: 0px;
+}
+.userTableEven{
+    /* border: 2px solid black; */
+    background-color: lightgray;
+    height: 30px;
+}
+.userTableOdd{
+    /* border: 2px solid black; */
+    background-color: white;
+    height: 30px;
+}
+.userTableCol1{
+    width: 50%;
+    border-right: 2px solid black;
+    margin-top: -5px;
+}
+.userTableCol2{
+    width: 30%;
+    text-align: center;
+    border-right: 2px solid black;
+}
+.userTableCol3{
+    width: 20%;
+    text-align: center;
+    margin-top: 0px;
+}
+.onClick{
+    color: black;
+}
+.onClick:active{
+    background-color: black;
+    color: white;
+}
+.spanDel:hover{
+    cursor:pointer;
+
+}

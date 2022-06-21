@@ -1,0 +1,85 @@
+.navDiv{
+    background-color:gray;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: -4px;
+    width: 447px;
+    height: 30px;
+    text-align:center;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 20px;
+    color: black;      
+}
+.navDiv:active{
+    background-color:black;
+    color: white;
+}
+.navDivChat{
+    background-color:white;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: -4px;
+    width: 447px;
+    height: 30px;
+    text-align:center;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+}
+.chatHeader{
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid black;
+    height: 30px;
+    padding-top: 5px;
+    font-size: large;
+    border-radius: 5px;
+}
+.closeButton{
+    display: inline;
+    border: 1px solid black;
+    position: absolute;
+    right: 12px;
+    margin-top: -4px;
+    padding-top: 0px;
+    padding-bottom: -5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Calibri;
+    border-radius: 5px;
+    font-size: 25px;
+    width: 30px; 
+}
+.chatInputDiv{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 300px;
+    padding-left: 100px;
+}
+.chatBox{
+    border: 1px solid black;
+    width: 940px;
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 10px;
+}
+.chatButtons{
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+}

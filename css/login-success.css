@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    margin: 50px;
+    font-family: Calibri;
+}
+h4{
+    font-family: Calibri;
+    text-align: center;
+    margin: 50px;
+}
+.navDiv{
+    background-color:gray;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: -4px;
+    width: 447px;
+    height: 30px;
+    text-align:center;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 20px;
+    color: black;      
+}
+.navDiv:active{
+    background-color:black;
+    color: white;
+}
